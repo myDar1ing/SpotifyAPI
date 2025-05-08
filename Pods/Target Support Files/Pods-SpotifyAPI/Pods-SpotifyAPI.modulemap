@@ -1,0 +1,6 @@
+framework module Pods_SpotifyAPI {
+  umbrella header "Pods-SpotifyAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
