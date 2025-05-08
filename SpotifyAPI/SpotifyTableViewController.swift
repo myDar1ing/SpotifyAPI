@@ -125,7 +125,7 @@ class SpotifyTableViewController: UITableViewController,UISearchBarDelegate {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         } else {
             print("Invalid or unsupported URL.")
-        }
+        } // сразу после нажатие на ячейку, код перекидывает на Сафари, где опять таки мы можем переходить между проектом и браузером
   }
 
 
